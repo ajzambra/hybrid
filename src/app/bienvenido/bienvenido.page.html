@@ -1,0 +1,16 @@
+<ion-content [fullscreen]="true">
+  <div class="overlay"></div>
+  
+  <div class="app-title-container">
+    <ion-title class="app-title">Inventory Track</ion-title>
+  </div>
+
+  <div class="welcome-container">
+    <ion-button expand="block" class="login-button" [routerLink]="['/iniciar-sesion']">
+      Iniciar Sesión
+    </ion-button>
+    <p class="action-text">
+      ¿No tienes una cuenta? <a [routerLink]="['/registro']">Regístrate</a>
+    </p>
+  </div>
+</ion-content>
